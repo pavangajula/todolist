@@ -14,7 +14,7 @@ const Form = ({ setInputText, todos, setTodos, inputText }) => {
     ]);
     setInputText("");
   };
-  
+
   return (
     <form>
       <input
@@ -30,7 +30,7 @@ const Form = ({ setInputText, todos, setTodos, inputText }) => {
         <select name="todos" className="filter-todo">
           <option value="All">All</option>
           <option value="Completed">Completed</option>
-          <option value="Uncompleted">Uncompleted</option>  
+          <option value="Uncompleted">Uncompleted</option>
         </select>
       </div>
     </form>
